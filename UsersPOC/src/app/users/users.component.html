@@ -1,0 +1,23 @@
+<h3>User Details</h3>
+<div class="table-responsive">
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userData" (click)="selectedUser(user)">
+            <td>{{user.name}}</td>
+            <td>{{user.age}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div *ngIf="hideData; else showData">
+    <h5>You have not selected a User</h5>
+</div>
+<ng-template #showData>
+    <h4>Welcome {{selectedUserData.name}}!</h4>
+</ng-template>
