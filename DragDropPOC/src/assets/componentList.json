@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Button",
+        "properties": "Click"
+    },
+    {
+        "id": 2,
+        "title": "Card",
+        "properties": "Information"
+    },
+    {
+        "id": 3,
+        "title": "Checkbox",
+        "properties": "Select"
+    },
+    {
+        "id": 4,
+        "title": "Datepicker",
+        "properties": "Select Date"
+    },
+    {
+        "id": 5,
+        "title": "Header",
+        "properties": "Header"
+    },
+    {
+        "id": 6,
+        "title": "Textbox",
+        "properties": "Input"
+    },
+    {
+        "id": 7,
+        "title": "Spinner",
+        "properties": "Load"
+    }
+]
